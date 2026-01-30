@@ -1,0 +1,18 @@
+package com.courseplatform.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class CourseListResponse {
+    private String id;
+    private String title;
+    private String description;
+    private int topicCount;
+    private int subtopicCount;
+}

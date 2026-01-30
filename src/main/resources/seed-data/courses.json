@@ -1,0 +1,142 @@
+[
+  {
+    "id": "physics-101",
+    "title": "Introduction to Physics",
+    "description": "Fundamental concepts of motion, forces, and energy.",
+    "topics": [
+      {
+        "id": "kinematics",
+        "title": "Kinematics",
+        "subtopics": [
+          {
+            "id": "speed",
+            "title": "Speed",
+            "content": "# Speed\n\nSpeed is the distance travelled per unit time.\n\nIt is a scalar quantity, meaning it only has magnitude and no direction.\n\n## Formula\n\n```\nSpeed = Distance / Time\n```\n\n## Units\n\n- Meters per second (m/s)\n- Kilometers per hour (km/h)\n- Miles per hour (mph)\n\n## Example\n\nIf a car travels 100 kilometers in 2 hours, its speed is:\n\n```\nSpeed = 100 km / 2 h = 50 km/h\n```"
+          },
+          {
+            "id": "velocity",
+            "title": "Velocity",
+            "content": "# Velocity\n\nVelocity is the rate of change of displacement with respect to time.\n\nUnlike speed, velocity is a vector quantity, meaning it has both magnitude and direction.\n\n## Formula\n\n```\nVelocity = Displacement / Time\n```\n\n## Key Differences from Speed\n\n- Velocity includes direction\n- Velocity can be negative (indicating opposite direction)\n- Average velocity can be zero even if average speed is not\n\n## Example\n\nIf an object moves 50 meters east in 10 seconds, its velocity is:\n\n```\nVelocity = 50 m east / 10 s = 5 m/s east\n```"
+          },
+          {
+            "id": "acceleration",
+            "title": "Acceleration",
+            "content": "# Acceleration\n\nAcceleration is the rate of change of velocity with respect to time.\n\nIt is a vector quantity.\n\n## Formula\n\n```\nAcceleration = Change in Velocity / Time\na = (v - u) / t\n```\n\nWhere:\n- a = acceleration\n- v = final velocity\n- u = initial velocity\n- t = time\n\n## Types of Acceleration\n\n1. **Positive acceleration**: Velocity increases\n2. **Negative acceleration (deceleration)**: Velocity decreases\n3. **Zero acceleration**: Constant velocity\n\n## Example\n\nA car accelerates from 0 to 20 m/s in 5 seconds:\n\n```\na = (20 - 0) / 5 = 4 m/s²\n```"
+          }
+        ]
+      },
+      {
+        "id": "dynamics",
+        "title": "Dynamics",
+        "subtopics": [
+          {
+            "id": "newtons-first-law",
+            "title": "Newton's First Law",
+            "content": "# Newton's First Law of Motion\n\nAlso known as the **Law of Inertia**.\n\n## Statement\n\nAn object at rest stays at rest, and an object in motion stays in motion with the same speed and direction, unless acted upon by an external force.\n\n## Key Concepts\n\n- **Inertia**: The tendency of an object to resist changes in its state of motion\n- Objects maintain their velocity (including zero velocity) unless a net force acts on them\n\n## Examples\n\n1. A book on a table remains at rest until someone pushes it\n2. A hockey puck sliding on ice continues moving until friction stops it\n3. Passengers lurch forward when a car suddenly stops"
+          },
+          {
+            "id": "newtons-second-law",
+            "title": "Newton's Second Law",
+            "content": "# Newton's Second Law of Motion\n\n## Statement\n\nThe acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.\n\n## Formula\n\n```\nF = ma\n```\n\nWhere:\n- F = net force (Newtons)\n- m = mass (kilograms)\n- a = acceleration (m/s²)\n\n## Key Insights\n\n- Larger force → larger acceleration\n- Larger mass → smaller acceleration (for same force)\n- Force and acceleration are in the same direction\n\n## Example\n\nA 10 kg object experiences a force of 50 N:\n\n```\na = F / m = 50 N / 10 kg = 5 m/s²\n```"
+          },
+          {
+            "id": "newtons-third-law",
+            "title": "Newton's Third Law",
+            "content": "# Newton's Third Law of Motion\n\n## Statement\n\nFor every action, there is an equal and opposite reaction.\n\n## Key Concepts\n\n- Forces always occur in pairs\n- Action and reaction forces act on different objects\n- The forces are equal in magnitude and opposite in direction\n\n## Examples\n\n1. **Rocket propulsion**: Rocket pushes gas downward (action), gas pushes rocket upward (reaction)\n2. **Walking**: Foot pushes ground backward (action), ground pushes foot forward (reaction)\n3. **Swimming**: Swimmer pushes water backward (action), water pushes swimmer forward (reaction)"
+          }
+        ]
+      },
+      {
+        "id": "work-energy",
+        "title": "Work and Energy",
+        "subtopics": [
+          {
+            "id": "work",
+            "title": "Work",
+            "content": "# Work\n\nIn physics, work is done when a force causes displacement.\n\n## Formula\n\n```\nW = F × d × cos(θ)\n```\n\nWhere:\n- W = work (Joules)\n- F = force (Newtons)\n- d = displacement (meters)\n- θ = angle between force and displacement\n\n## Key Points\n\n- Work is a scalar quantity\n- No work is done if there is no displacement\n- Maximum work when force and displacement are in the same direction (θ = 0°)\n- No work when force is perpendicular to displacement (θ = 90°)\n\n## Example\n\nPushing a box with 20 N force for 5 meters:\n\n```\nW = 20 N × 5 m = 100 J\n```"
+          },
+          {
+            "id": "kinetic-energy",
+            "title": "Kinetic Energy",
+            "content": "# Kinetic Energy\n\nKinetic energy is the energy possessed by an object due to its motion.\n\n## Formula\n\n```\nKE = ½mv²\n```\n\nWhere:\n- KE = kinetic energy (Joules)\n- m = mass (kilograms)\n- v = velocity (m/s)\n\n## Key Insights\n\n- Kinetic energy depends on the mass and the square of the velocity\n- Doubling velocity quadruples kinetic energy\n- Kinetic energy is always positive\n\n## Example\n\nA 5 kg object moving at 10 m/s:\n\n```\nKE = ½ × 5 kg × (10 m/s)² = 250 J\n```"
+          },
+          {
+            "id": "potential-energy",
+            "title": "Potential Energy",
+            "content": "# Potential Energy\n\nPotential energy is the energy stored in an object due to its position or configuration.\n\n## Gravitational Potential Energy\n\n```\nPE = mgh\n```\n\nWhere:\n- PE = potential energy (Joules)\n- m = mass (kilograms)\n- g = gravitational acceleration (9.8 m/s²)\n- h = height (meters)\n\n## Key Concepts\n\n- Energy stored due to position in a gravitational field\n- Higher position → greater potential energy\n- Can be converted to kinetic energy\n\n## Example\n\nA 2 kg book on a shelf 3 meters high:\n\n```\nPE = 2 kg × 9.8 m/s² × 3 m = 58.8 J\n```"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "math-101",
+    "title": "Basic Mathematics for Problem Solving",
+    "description": "Core mathematical concepts used in science and everyday problem solving.",
+    "topics": [
+      {
+        "id": "algebra",
+        "title": "Algebra Fundamentals",
+        "subtopics": [
+          {
+            "id": "linear-equations",
+            "title": "Linear Equations",
+            "content": "# Linear Equations\n\nA linear equation is an equation where the highest power of the variable is 1.\n\n## Standard Form\n\n```\nax + b = c\n```\n\n## Solving Linear Equations\n\n1. Isolate the variable term\n2. Divide by the coefficient\n\n## Example\n\nSolve: 3x + 5 = 14\n\n```\n3x + 5 = 14\n3x = 14 - 5\n3x = 9\nx = 3\n```"
+          },
+          {
+            "id": "quadratic-equations",
+            "title": "Quadratic Equations",
+            "content": "# Quadratic Equations\n\nA quadratic equation has the form:\n\n```\nax² + bx + c = 0\n```\n\n## Quadratic Formula\n\n```\nx = [-b ± √(b² - 4ac)] / 2a\n```\n\n## Discriminant\n\nThe discriminant (b² - 4ac) determines the nature of roots:\n\n- Positive: Two real roots\n- Zero: One real root\n- Negative: Two complex roots\n\n## Example\n\nSolve: x² - 5x + 6 = 0\n\n```\nx = [5 ± √(25 - 24)] / 2\nx = [5 ± 1] / 2\nx = 3 or x = 2\n```"
+          },
+          {
+            "id": "inequalities",
+            "title": "Inequalities",
+            "content": "# Inequalities\n\nInequalities compare two expressions using symbols like <, >, ≤, ≥.\n\n## Rules for Solving\n\n1. Add or subtract the same value from both sides\n2. Multiply or divide by a positive number (inequality stays the same)\n3. Multiply or divide by a negative number (flip the inequality)\n\n## Example\n\nSolve: 2x - 3 > 7\n\n```\n2x - 3 > 7\n2x > 10\nx > 5\n```\n\nSolution: All values greater than 5"
+          }
+        ]
+      },
+      {
+        "id": "functions",
+        "title": "Functions",
+        "subtopics": [
+          {
+            "id": "function-basics",
+            "title": "Function Basics",
+            "content": "# Functions\n\nA function is a relation where each input has exactly one output.\n\n## Notation\n\n```\nf(x) = expression\n```\n\n## Domain and Range\n\n- **Domain**: Set of all possible input values\n- **Range**: Set of all possible output values\n\n## Example\n\n```\nf(x) = 2x + 1\n```\n\nIf x = 3:\n```\nf(3) = 2(3) + 1 = 7\n```"
+          },
+          {
+            "id": "rate-of-change",
+            "title": "Rate of Change",
+            "content": "# Rate of Change\n\nThe rate of change measures how one quantity changes relative to another.\n\n## Average Rate of Change\n\n```\nRate = (f(b) - f(a)) / (b - a)\n```\n\n## Slope of a Line\n\nFor a linear function, the rate of change is constant and equals the slope:\n\n```\nm = (y₂ - y₁) / (x₂ - x₁)\n```\n\n## Example\n\nFor f(x) = x² between x = 1 and x = 3:\n\n```\nRate = (f(3) - f(1)) / (3 - 1)\nRate = (9 - 1) / 2 = 4\n```"
+          },
+          {
+            "id": "composition",
+            "title": "Function Composition",
+            "content": "# Function Composition\n\nComposition combines two functions by applying one function to the result of another.\n\n## Notation\n\n```\n(f ∘ g)(x) = f(g(x))\n```\n\nRead as \"f composed with g\"\n\n## Steps\n\n1. Evaluate the inner function g(x)\n2. Use that result as input for f(x)\n\n## Example\n\nGiven:\n- f(x) = 2x + 1\n- g(x) = x²\n\nFind (f ∘ g)(3):\n\n```\ng(3) = 3² = 9\nf(9) = 2(9) + 1 = 19\n```\n\nTherefore, (f ∘ g)(3) = 19"
+          }
+        ]
+      },
+      {
+        "id": "geometry",
+        "title": "Geometry Basics",
+        "subtopics": [
+          {
+            "id": "area-perimeter",
+            "title": "Area and Perimeter",
+            "content": "# Area and Perimeter\n\n## Rectangle\n\n**Perimeter**: P = 2(l + w)\n**Area**: A = l × w\n\n## Circle\n\n**Circumference**: C = 2πr\n**Area**: A = πr²\n\n## Triangle\n\n**Perimeter**: P = a + b + c\n**Area**: A = ½ × base × height\n\n## Example\n\nRectangle with length 8 cm and width 5 cm:\n\n```\nPerimeter = 2(8 + 5) = 26 cm\nArea = 8 × 5 = 40 cm²\n```"
+          },
+          {
+            "id": "pythagorean-theorem",
+            "title": "Pythagorean Theorem",
+            "content": "# Pythagorean Theorem\n\nIn a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides.\n\n## Formula\n\n```\na² + b² = c²\n```\n\nWhere:\n- c = hypotenuse (longest side)\n- a, b = other two sides\n\n## Applications\n\n- Finding missing side lengths\n- Determining if a triangle is right-angled\n- Distance calculations\n\n## Example\n\nFind the hypotenuse when a = 3 and b = 4:\n\n```\nc² = 3² + 4²\nc² = 9 + 16 = 25\nc = 5\n```"
+          },
+          {
+            "id": "volume",
+            "title": "Volume",
+            "content": "# Volume\n\nVolume measures the space occupied by a 3D object.\n\n## Common Formulas\n\n**Cube**: V = s³\n\n**Rectangular Prism**: V = l × w × h\n\n**Cylinder**: V = πr²h\n\n**Sphere**: V = (4/3)πr³\n\n## Units\n\n- Cubic meters (m³)\n- Cubic centimeters (cm³)\n- Liters (L)\n\n## Example\n\nCylinder with radius 3 cm and height 10 cm:\n\n```\nV = π × 3² × 10\nV = π × 9 × 10\nV ≈ 282.7 cm³\n```"
+          }
+        ]
+      }
+    ]
+  }
+]
