@@ -164,9 +164,12 @@ JWT_SECRET=your-super-secret-key-at-least-256-bits-long-change-this-in-productio
 
 ### 4. Environment Variables
 
+> [!IMPORTANT]
+> Use the **Internal Database URL** provided by Render for better performance and security. The External URL is only for connecting from your local machine.
+
 ```
 SPRING_PROFILE=prod
-DATABASE_URL=<your Render PostgreSQL URL>
+DATABASE_URL=<your Render Internal Database URL>
 JWT_SECRET=your-super-secret-key-at-least-256-bits-long-change-this-in-production
 ```
 
