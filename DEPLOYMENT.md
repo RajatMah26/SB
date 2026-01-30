@@ -175,6 +175,29 @@ JWT_SECRET=your-super-secret-key-at-least-256-bits-long-change-this-in-productio
 - Wait for deployment
 - Access at: `https://your-app.onrender.com/swagger-ui.html`
 
+## Deployment via Docker (Recommended if Java runtime is missing)
+
+If you don't see "Java" as a runtime option, you can use the `Dockerfile` I provided.
+
+### 1. Create Web Service
+- Click "New +" → "Web Service"
+- Connect your repository
+
+### 2. Configure Service
+- **Runtime**: Select `Docker`
+- Render will automatically find the `Dockerfile` in your root directory.
+
+### 3. Environment Variables
+Add the same variables as before:
+- `SPRING_PROFILE` = `prod`
+- `DATABASE_URL` = `<your PostgreSQL URL>`
+- `JWT_SECRET` = `your-secret-key`
+
+### 4. Deploy
+- Click "Create Web Service"
+- Render will build the container and deploy it.
+- Access at: `https://your-app.onrender.com/swagger-ui.html`
+
 ## Troubleshooting
 
 ### Application won't start
